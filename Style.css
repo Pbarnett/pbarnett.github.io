@@ -1,0 +1,129 @@
+
+
+body{
+	width: 1024px;
+	margin: 0 auto;
+	font-family: helvetica, Arial, sans-serif;
+	
+} 
+	
+	
+header{
+	height:70px;
+	display: block;
+
+}
+
+
+.nav{
+	border-bottom: 1px solid black;
+}
+div ul li{
+	display: inline;
+	float: right;
+	color: #000000;
+	border-bottom: 1px solid;
+	margin: 3%;
+
+}
+
+/*
+section{
+	display: block;
+	width: 400px;
+	color: #000000;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin: 1%;
+	position:fixed;
+	top:200px;
+	
+
+}
+*/
+h1 {
+	font-size: 60px;
+
+	margin-top:10px;
+	;
+}
+aside{
+	display: block;
+	width: 400px;
+	position:fixed;
+	top:400px;
+	right:5px;
+}
+
+
+.line-separator{
+
+	height:1px;
+	background:#747862;
+	border-bottom:1px solid #747862;
+}
+
+a:hover{
+	opacity: .5;
+}
+
+
+
+p.job{
+	line-height: 1.3em;
+	text-align: justify;
+	display: block;
+	width: 400px;
+	background: transparent url('images/bg.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	
+}
+
+span.dotcoorange{
+	color: orange;
+}
+
+.checkout{
+	display: inline;
+	position: absolute;
+	top: 260px;
+	right: 140px;
+}
+
+#google {
+	position:absolute;
+	right:0px
+}
+.studies{
+	display: inline;
+	position: absolute;
+	top: 300px;
+	
+}
+
+.studies img{
+	width:250px;
+	height:200px ;
+}
+#startup{
+	float: right;
+	display: block;
+	margin: 0px;
+}
+
+#startup img {
+	width:100px;
+	position:absolute;
+	right:120px;
+}
+footer{
+	position:fixed;
+	top:600px;
+	display: block;
+	width: 1010px;
+}
+

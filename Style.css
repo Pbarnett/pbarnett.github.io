@@ -1,5 +1,11 @@
 
 
+@font-face{
+	font-family: goudy_bookletter_1911-webfont;
+	src: url('./fonts/goudy_bookletter_1911-webfont.ttf');
+}
+
+
 body{
 	width: 1024px;
 	margin: 0 auto;
@@ -16,7 +22,13 @@ header{
 
 
 .nav{
-	border-bottom: 1px solid black;
+	border-bottom: 6px;
+	border-bottom-color: #D2691E;
+	position: absolute;
+	width: 90%;
+	top: 70px;
+	clear:both;
+
 }
 div ul li{
 	display: inline;
@@ -45,7 +57,13 @@ h1 {
 	font-size: 60px;
 
 	margin-top:10px;
-	;
+}
+
+h2{
+	font-family: 'goudy_bookletter_1911-webfont', serif;
+  	font-size: 5em;
+  	color: #D2691E;
+  
 }
 aside{
 	display: block;
@@ -79,7 +97,9 @@ p.job{
 	height:20px;
 	border:0;
 	padding:4px 8px;
-	margin-bottom:0px;
+	position: absolute;
+	top: 175px;
+	
 	
 }
 
@@ -89,9 +109,11 @@ span.dotcoorange{
 
 .checkout{
 	display: inline;
-	position: absolute;
-	top: 260px;
-	right: 140px;
+	position: fixed;
+	top: 465px;
+	right: 120px;
+	width:80px;
+	clear: both;
 }
 
 #google {
@@ -101,13 +123,13 @@ span.dotcoorange{
 .studies{
 	display: inline;
 	position: absolute;
-	top: 300px;
+	top: 450px;
 	
 }
 
 .studies img{
-	width:250px;
-	height:200px ;
+	width:20%;
+	height:40% ;
 }
 #startup{
 	float: right;
@@ -118,7 +140,8 @@ span.dotcoorange{
 #startup img {
 	width:100px;
 	position:absolute;
-	right:120px;
+	right:1%;
+	top: 190px;
 }
 footer{
 	position:fixed;

@@ -1,8 +1,10 @@
 
 
 @font-face{
-	font-family: goudy_bookletter_1911-webfont;
-	src: url('./fonts/goudy_bookletter_1911-webfont.ttf');
+	font-family: bodoniflfroman;
+	src: url('./fonts/bodoniflfroman.ttf');
+	font-family: BodoniFLF-Bold;
+	src: url('./fonts/BodoniFLF-Bold.ttf');
 }
 
 
@@ -10,6 +12,7 @@ body{
 	width: 1024px;
 	margin: 0 auto;
 	font-family: helvetica, Arial, sans-serif;
+	color: #F8F8FF;
 	
 } 
 	
@@ -17,6 +20,7 @@ body{
 header{
 	height:70px;
 	display: block;
+	width: 10000px;
 
 }
 
@@ -28,14 +32,17 @@ header{
 	width: 90%;
 	top: 70px;
 	clear:both;
-
+	
 }
 div ul li{
 	display: inline;
 	float: right;
-	color: #000000;
-	border-bottom: 1px solid;
 	margin: 3%;
+	font-family: 'bodoniflfroman', serif;
+	font-size: 20px;
+	color : #747862
+	text-decoration-line: none
+
 
 }
 
@@ -60,9 +67,10 @@ h1 {
 }
 
 h2{
-	font-family: 'goudy_bookletter_1911-webfont', serif;
+	font-family: 'bodoniflfroman', serif;
   	font-size: 5em;
-  	color: #D2691E;
+  	color: #F8F8FF;
+  	background-color:#6B8FD4;
   
 }
 aside{
@@ -71,6 +79,17 @@ aside{
 	position:fixed;
 	top:400px;
 	right:5px;
+}
+
+.firstcharacter{
+		float: left; 
+		color: #903; 
+		font-size: 75px; 
+		line-height: 60px; 
+		padding-top: 4px; 
+		padding-right: 8px; 
+		padding-left: 3px; 
+		font-family: Georgia; }
 }
 
 
@@ -85,11 +104,15 @@ a:hover{
 	opacity: .5;
 }
 
-
+p{
+	font-family: 'bodoniflfroman', serif;
+	font-size: 20px;
+	color : #747862
+}
 
 p.job{
 	line-height: 1.3em;
-	text-align: justify;
+	text-align: left;
 	display: block;
 	width: 400px;
 	background: transparent url('images/bg.jpg') no-repeat;
@@ -99,7 +122,6 @@ p.job{
 	padding:4px 8px;
 	position: absolute;
 	top: 175px;
-	
 	
 }
 
@@ -111,8 +133,8 @@ span.dotcoorange{
 	display: inline;
 	position: fixed;
 	top: 465px;
-	right: 120px;
-	width:80px;
+	right: 60px;
+	width:140px;
 	clear: both;
 }
 
@@ -124,12 +146,15 @@ span.dotcoorange{
 	display: inline;
 	position: absolute;
 	top: 450px;
+background-color: #4575D4;
 	
 }
 
 .studies img{
 	width:20%;
 	height:40% ;
+	border-radius: 90% 20% 20% 20%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 #startup{
 	float: right;
@@ -143,6 +168,17 @@ span.dotcoorange{
 	right:1%;
 	top: 190px;
 }
+
+
+
+
+
+#dotco img{
+	width: 12%;
+	float:right;
+	padding: 3%;
+}
+
 footer{
 	position:fixed;
 	top:600px;
